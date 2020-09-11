@@ -1,0 +1,180 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="\Project Assignment\css\utility.css">
+    <link rel="icon" href="\Project Assignment\src\it.png" type="image/icon type">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="\Project Assignment\js\main.js"></script>
+    <title>Servlabs Systems</title>
+</head>
+
+<body>
+    <div class="page=wrap">
+        <div class="navbar">
+            <a href="#" class="logo"> <img class="inline-block img-logo" src="src/it.png"> </a>
+            <a href="#"> <img class="inline-block img-logo" src="src/Servlabs Systems (1).png"> </a>
+            <ul class="nav">
+                <li>
+                    <a href="#">Home</a></li>
+                <li>
+                    <a href="#aboutus">About Us</a></li>
+                <li>
+                    <a href="#services">Services</a></li>
+                <li>
+                    <a href="#careers">Careers</a></li>
+                <li>
+                    <a href="#contactus">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="HomeSection" id="home"></div>
+        <div class="Services" id="services">
+            <div class="text-part">
+                <h1>
+                    Services</h1>
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <img src="src/software.png" width="90%">
+
+                        </div>
+                        <div class="message"> Software Solutions</div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="src/technical-support (1).png" width="90%">
+
+                        </div>
+                        <div class="message"> Software Services</div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="src/call.png" width="100%">
+
+                        </div>
+                        <div class="message"> Consultancy</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="AboutUs" id="aboutus">
+
+            <div class="text-part">
+                <h1>
+                    About Us</h1>
+                <p> We are a global technology digital solution provider company focusing on helping our clients in the growing world by providing IT Services, Solutions and Consultancy. We are focused on providing excellent customer service and to go extra
+                    mile for the client. We have over 5 offices spread across the world while headquarters held at New York.
+
+            </div>
+
+        </div>
+
+        <div class="Careers" id="careers">
+            <div class="text-part">
+                <h1>
+                    Careers</h1>
+                <div class="message">
+                    Enter your details to recieve updates about <span style="display: inline-block;
+                            background: #dfb6c2;">interesting opportunities </span> at Servlabs!
+                </div>
+
+                <div class="container">
+                    <div id="errorMessage" style="color:red"></div>
+                    <div id="saveMessage"></div>
+
+                    <form name="validationForm" action="javascript:submit();" onsubmit="validateForm('')" method="POST">
+                        <div class="row">
+                            <div class="col-25">
+                                <label>Enter Your First Name</label>
+                            </div>
+                            <div class="col-60">
+                                <input name="fName" onkeyup="check('fName')" type="text" id="fName" required/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label>Enter Your Last Name</label>
+                            </div>
+                            <div class="col-60">
+                                <input name="lName" type="text" onkeyup="check('lName')" id="lName" required/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label>Enter Your Email Adress</label>
+                            </div>
+                            <div class="col-60">
+                                <input name="emailAdd" type="text" onkeyup="check('emailAdd')" id="emailAdd" required />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label>Enter Your Country </label>
+                            </div>
+                            <div class="col-60">
+                                <select id="country" name="country">
+                                                <option value="australia">India</option>
+                                                <option value="canada">USA</option>
+                                                <option value="usa">Singapore</option>
+                                              </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="submit" onkeypress="check('submit')" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="ContatcUs" id="contactus">
+            <div class="text-part">
+
+                <h1>
+                    Contact Us</h1>
+                <div class="message">
+                    Want To more about us and our services? Contact us using this form
+                </div>
+                <p> <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeFgMrmxDtoJnoducjnKz74l2eH8RXtPXtkrRYZZbK67tqyXQ/viewform" width="800" height="450"></iframe>
+            </div>
+        </div>
+        <footer class="footer-distributed">
+
+            <div class="footer-right">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+
+            </div>
+
+            <div class="footer-left">
+
+                <p class="footer-links">
+                    <a href="#">Home</a>
+
+                    <a href="#">Solutions</a>
+
+                    <a href="#services">Consultancy</a>
+
+                    <a href="#services">Services</a>
+
+                    <a href="#contactus">Pricing</a>
+
+                    <a href="#contactus">Contact</a>
+                </p>
+
+                <p>Servlabs &copy; 2020 All rights reserved</p>
+            </div>
+
+        </footer>
+    </div>
+
+    </div>
+
+
+</body>
+
+</html>
